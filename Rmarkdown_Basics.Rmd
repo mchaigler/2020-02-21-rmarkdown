@@ -28,3 +28,40 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r,dt,cache=TRUE}
+DT::datatable(iris)
+```
+
+
+###  markdown basics 
+1. item 1
+2. item 2
+  1.item indent 1
+
+
+#hw
+########hw2
+
+
+
+```{r}
+#checking Variable names
+variable.names(iris)
+plot(iris$Sepal.Length,iris$Sepal.Width)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
